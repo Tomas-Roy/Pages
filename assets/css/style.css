@@ -15,6 +15,7 @@ Author URI: https://tomasroy.me
     --color02: #FFCA42;
     --color03: #F6F8FC;
     --color04: #B4C7E7;
+    --color05: #969AA0;
 }
 body {
     font-family: "Inter","Cardo", serif;
@@ -41,6 +42,25 @@ h1,h2,h3,h4,h5,h6{
     color: var(--color03);
     font-weight: 400;
     font-family:"Cardo", serif;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Cardo", serif;
+    color: var(--color01);
+    position: relative;
+    text-align: center;
+}
+.section-title::after {
+	content: "";
+	height: 3px;
+	width: 55px;
+	background: var(--color02);
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	left: 0;
+	margin: auto;
 }
 .section-padding {
     padding: 100px 0;
@@ -224,7 +244,74 @@ nav.menu-area ul li:last-child {
     height: 100%;
     width: 90%;
 }
+  /*****************************/
+ /******** Includes CSS *******/
+/*****************************/
+.includes-area-main .section-title {
+	font-size: 45px;
+	font-weight: 700;
+	font-family: "Cardo", serif;
+	color: var(--color01);
+	position: relative;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.includes-book-image img {
+	height: 100%;
+	width: 100%;
+}
+.includes-book-details h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Cardo", serif;
+    color: var(--color01);
+    margin-bottom: 20px;
+}
+.includes-book-details p{
+    color: var(--color05);
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+.includes-book-details .counter-elements h4{
+    color: var(--color01);
+}
+.includes-book-details .background-counter-area{
+    margin-bottom: 20px;
+}
+.includes-book-details .header-button{
+    background: transparent;
+    border: 1px solid var(--color02);
+}
+.includes-book-details .header-button:hover{
+    background: var(--color02);
+    border: 1px solid transparent;
+}
 
+  /*****************************/
+ /****** About Author CSS *****/
+/*****************************/
+.about-author-image img {
+	height: 100%;
+	width: 100%;
+	margin: -65px 0 30px -30px;
+}
+.about-author-image {
+	border: 15px solid var(--color02);
+	margin: 40px 0px 0px 40px;
+	width: 80%;
+}
+.about-author-details .section-title{
+    text-align: start;
+    margin-bottom: 35px;
+}
+.about-author-details .section-title::after{
+    left: 0;
+    right: unset;
+    bottom: -15px;
+}
+.about-author-details p{
+    color: var(--color05);
+}
 
   /*****************************/
  /******** Default CSS ********/
