@@ -290,6 +290,10 @@ nav.menu-area ul li:last-child {
   /*****************************/
  /****** About Author CSS *****/
 /*****************************/
+.about-author-area-main{
+	background: var(--color03);
+    padding-top: 120px;
+}
 .about-author-image img {
 	height: 100%;
 	width: 100%;
