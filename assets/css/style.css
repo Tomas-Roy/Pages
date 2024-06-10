@@ -302,7 +302,7 @@ nav.menu-area ul li:last-child {
 .about-author-image {
 	border: 15px solid var(--color02);
 	margin: 40px 0px 0px 40px;
-	width: 80%;
+	width: 90%;
 }
 .about-author-details .section-title{
     text-align: start;
@@ -313,8 +313,70 @@ nav.menu-area ul li:last-child {
     right: unset;
     bottom: -15px;
 }
-.about-author-details p{
-    color: var(--color05);
+.about-author-details p {
+	color: var(--color05);
+	margin-bottom: 30px;
+}
+.author-counter-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.author-counter-box h2{
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--color01);
+}
+.author-counter-box p{
+    margin: 0;
+    font-size: 18px;
+}
+.author-counter-box {
+	border-right: 2px solid var(--color02);
+	padding-right: 35px;
+}
+.author-counter-box:last-child{
+    border-right: none;
+}
+.author-bio {
+	display: flex;
+	align-items: center;
+    /* justify-content: space-between; */
+	background: var(--color01);
+	padding: 20px;
+	width: 85%;
+}
+.author-qr {
+	background: var(--color03);
+	padding: 15px;
+	width: 26%;
+}
+.author-qr img{
+    height: 100%;
+    width: 100%;
+}
+.author-details {
+	margin-left: 35px;
+}
+.author-details h3{
+    font-size: 22px;
+    color: var(--color02);
+    font-weight: 700;
+}
+.author-details li{
+	list-style: none;
+    color: var(--color04);
+    font-size: 19px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.author-details li:last-child{
+    margin: 0;
+}
+.author-details li a{
+    margin-left: 10px;
+    color: var(--color04);
 }
 
   /*****************************/
