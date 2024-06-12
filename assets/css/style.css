@@ -116,7 +116,7 @@ nav.menu-area ul li a:hover{
 }
 .header-button {
 	background: var(--color02);
-	padding: 6px 25px;
+	padding: 13px 30px;
     transition: .3s;
     color: var(--color01) !important;
     font-size: 19px;
@@ -378,6 +378,72 @@ nav.menu-area ul li:last-child {
     margin-left: 10px;
     color: var(--color04);
 }
+
+  /*****************************/
+ /******** Trusted CSS ********/
+/*****************************/
+.trusted-area-main .section-title {
+	margin-bottom: 80px;
+}
+.trusted-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.trusted-box img {
+	height: 110px;
+	width: 120px;
+	margin-bottom: 20px;
+}
+.trusted-box h4{
+    color: var(--color01);
+    margin-bottom: 10px;
+}
+.trusted-box p{
+    color: var(--color05);
+    text-align: center;
+}
+
+
+  /*****************************/
+ /****** Book Copy CSS ********/
+/*****************************/
+.book-copy-area-main{
+    background: var(--color01);
+}
+.book-copy-left .section-title{
+    color: var(--color03);
+    text-align: start;
+    margin-bottom: 50px;
+}
+.book-copy-left .section-title::after{
+    right: unset;
+}
+.book-copy-left p{
+    margin-bottom: 40px;
+}
+.book-copy-left .header-button{
+    color: var(--color03) !important;
+    background: transparent;
+    border: 1px solid var(--color02);
+    transition: .3s;
+}
+.book-copy-left .header-button:hover{
+    background: var(--color02);
+    color: var(--color01) !important;
+}
+.book-copy-right img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
 
   /*****************************/
  /******** Default CSS ********/
