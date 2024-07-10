@@ -759,6 +759,78 @@ nav.menu-area ul li:last-child {
 .footer-nav-social-main  li a i:hover{
     color: var(--color01);
 }
+.footer-up-box .footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.list-icon{
+    margin-right: 15px;
+}
+.list-icon i {
+	font-size: 6px;
+	color: var(--color02);
+	margin-right: 4px;
+	opacity: 50%;
+}
+.footer-up-box ul li, .list-icon{
+    display: flex;
+    align-items: center;
+}
+.footer-up-box ul li{
+	margin-bottom: 10px;
+}
+.footer-up-box ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color04);
+    transition: .3s;
+}
+.footer-up-box ul li a:hover{
+    color: var(--color02);
+}
+.footer-address-box a{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+}
+.footer-address-box a p{
+    width: 30%;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Cardo", serif;
+}
+.footer-address-box a span{
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color04);
+}
+.footer-bottom{
+    border-top: 1px solid var(--color05);
+    opacity: 50%;
+}
+.footer-bottom-text{
+    margin: 30px 0;
+}
+.footer-bottom-text h3{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    color: var(--color04);
+    text-align: center;
+}
+.footer-bottom-text h3 a{
+    font-size: 18px;
+    font-weight: 600;
+    font-variant: small-caps;
+    color: var(--color04);
+    font-family: "Cardo", serif;
+    transition: .3s;
+}
+.footer-bottom-text h3 a:hover{
+    color: var(--color03);
+}
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
