@@ -831,6 +831,144 @@ nav.menu-area ul li:last-child {
 .footer-bottom-text h3 a:hover{
     color: var(--color03);
 }
+
+
+
+
+
+  /*****************************/
+ /******** About Page CSS *****/
+/*****************************/
+.about-page .background-area-main {
+	padding: 100px 0px 100px 0px;
+}
+.background-main-text .section-title {
+	color: var(--color06);
+	font-size: 50px;
+	margin-bottom: 50px;
+}
+.background-main-text p{
+	color: var(--color04);
+	width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.about-page-author-area-main{
+    background: var(--color03);
+}
+.about-page-author-details-box {
+	background: var(--color06);
+	padding: 40px 45px;
+}
+.about-page-author-image {
+	margin-bottom: 65px;
+}
+.about-page-author-image img{
+    height: 100%;
+    width: 100%;
+}
+.about-single-box {
+	display: flex;
+	margin: 10px 0;
+}
+.about-single-box h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color01);
+    width: 50%;
+}
+.about-single-box span{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color05);
+    width: 50%;
+}
+.about-single-box span ul{
+    justify-content: flex-start;
+}
+.about-single-box span ul li a i {
+	background: transparent;
+}
+.about-page-author-area-main .about-author-details {
+	margin: 0 60px;
+}
+.about-page-author-area-main .header-button {
+	padding: 13px 60px;
+}
+.about-page-author-area-main .header-button:hover {
+	background: var(--color01);
+	color: var(--color06) !important;
+}
+
+.story-area-box .section-title{
+    text-align: start;
+    margin-bottom: 50px;
+}
+.story-area-box .section-title::after {
+	right: unset;
+}
+.story-area-box > p {
+	color: var(--color05);
+	width: 95%;
+	margin-bottom: 45px;
+}
+.story-area-box img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.awards-box {
+	display: flex;
+	margin-left: 50px;
+	margin-bottom: 45px;
+}
+.awards-box:last-child {
+    margin-bottom: 0;
+  }
+.awards-box span {
+	height: 60px;
+	width: 85px;
+	background: var(--color02);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Cardo", serif;
+	font-size: 30px;
+	font-weight: 700;
+    position: relative;
+}
+
+
+.awards-box span::after {
+	position: absolute;
+	content: "-------";
+	z-index: -99;
+	bottom: -72px;
+	transform: rotate(90deg);
+	right: -25px;
+}
+.awards-box .not-after:after {
+    content: "";
+}
+.awards-box li {
+	margin-left: 55px;
+	list-style: none;
+}
+.awards-box li h4{
+    color: var(--color01);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.awards-box li p {
+	color: var(--color05);
+}
+
+.about-page.includes-area-main{
+    background: var(--color03);
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
