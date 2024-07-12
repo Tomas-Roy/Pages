@@ -117,7 +117,7 @@ nav.menu-area ul li a:hover{
 }
 .header-button {
 	background: var(--color02);
-	padding: 13px 30px;
+	padding: 13px 50px;
     transition: .3s;
     color: var(--color01) !important;
     font-size: 19px;
@@ -260,6 +260,9 @@ nav.menu-area ul li:last-child {
 .includes-book-image img {
 	height: 100%;
 	width: 100%;
+}
+.includes-book-details {
+	margin-left: 22px;
 }
 .includes-book-details h3{
     font-size: 32px;
@@ -966,9 +969,59 @@ nav.menu-area ul li:last-child {
 .awards-box li p {
 	color: var(--color05);
 }
-
 .about-page.includes-area-main{
     background: var(--color03);
+}
+
+
+  /*****************************/
+ /****** Store Page CSS *******/
+/*****************************/
+.store-page .includes-book-image {
+	background: var(--color03);
+}
+.store-page .includes-book-image img {
+	height: 100%;
+	width: 100%;
+	padding: 40px 45px;
+}
+.store-page .includes-book-image{
+    position: relative;
+    margin-bottom: 20px;
+}
+.store-page .includes-book-image .book-extra-icon img {
+	height: 100%;
+	width: 80%;
+}
+.store-page .includes-book-image .book-extra-icon {
+	position: absolute;
+	bottom: -25px;
+	right: -70px;
+}
+.store-page .includes-book-details {
+	margin-left: 0px;
+}
+.book-details-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.book-details-title h3{
+    margin-bottom: 0;
+}
+.book-details-title span {
+	font-size: 22px;
+	font-weight: 700;
+	color: var(--color02);
+}
+.store-page .background-button {
+	margin-bottom: 0px;
+}
+
+
+
+
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
