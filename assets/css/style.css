@@ -1019,8 +1019,55 @@ nav.menu-area ul li:last-child {
 	margin-bottom: 0px;
 }
 
-
-
+  /************************************/
+ /******** Single Product CSS ********/
+/************************************/
+.store-page.single-product .includes-book-image {
+	margin-bottom: 0px;
+}
+.single-product .includes-book-details {
+	margin-left: 45px;
+}
+.single-product .book-details-title {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.single-product .book-details-title h3 {
+	margin-bottom: 15px;
+}
+.single-product .book-details-title span {
+	font-size: 30px;
+	font-weight: 800;
+}
+.single-product .about-page-author-details-box {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 35px;
+}
+.single-product  .about-single-box {
+	display: flex;
+	margin: 20px 0;
+	align-items: center;
+}
+.single-product .about-single-box h4 {
+	font-size: 19px;
+	font-weight: 400;
+	color: var(--color05);
+	width: 22%;
+    font-family: "Inter", serif;
+}
+.single-product .about-single-box span {
+	width: 70%;
+    font-family: "Inter", serif;
+}
+.single-product .about-single-box cotation {
+	width: 8%;
+    color: var(--color05);
+}
+.single-product .includes-book-details p {
+	margin-bottom: 30px;
+}
 
   /*****************************/
  /******** Default CSS ********/
