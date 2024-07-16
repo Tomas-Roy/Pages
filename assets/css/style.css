@@ -705,8 +705,9 @@ nav.menu-area ul li:last-child {
     width: 65%;
     margin-right: 15px;
 }
-.subscribe-bottom a {
+.subscribe-bottom button {
 	width: 35%;
+    color: var(--color03);
 	text-align: center;
 	background: var(--color01);
 	padding: 15px 0px;
@@ -714,8 +715,10 @@ nav.menu-area ul li:last-child {
     font-family: "Cardo", serif;
     font-weight: 700;
     transition: .3s;
+    outline: none;
+    border: none;
 }
-.subscribe-bottom a:hover{
+.subscribe-bottom button:hover{
     background:var(--color03);
     color: var(--color01);
 }
@@ -834,6 +837,7 @@ nav.menu-area ul li:last-child {
 .footer-bottom-text h3 a:hover{
     color: var(--color03);
 }
+
 
 
 
@@ -1045,9 +1049,9 @@ nav.menu-area ul li:last-child {
 	padding: 0;
 	margin-bottom: 35px;
 }
-.single-product  .about-single-box {
+.single-product .about-single-box {
 	display: flex;
-	margin: 20px 0;
+	margin: 0 0 20px 0;
 	align-items: center;
 }
 .single-product .about-single-box h4 {
@@ -1069,6 +1073,92 @@ nav.menu-area ul li:last-child {
 	margin-bottom: 30px;
 }
 
+.background-button.subscribe-bottom {
+	width: 100%;
+	justify-content: flex-start;
+}
+.background-button.subscribe-bottom form{
+    width: 20%;
+    border: 2px solid var(--color02);
+    margin-right: 25px;
+}
+.background-button.subscribe-bottom form input{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 15px;
+}
+.background-button.subscribe-bottom button {
+	width: 60%;
+	color: var(--color01);
+	text-align: center;
+	background: var(--color02);
+    letter-spacing: 2%;
+}
+.background-button.subscribe-bottom button:hover{
+    background:var(--color01);
+    color: var(--color06);
+}
+.background-button.subscribe-bottom button i{
+    margin-right: 10px;
+}
+.single-page-book-details .background-button.subscribe-bottom {
+    justify-content: center;
+	margin-top: 100px;
+    margin-bottom: 30px;
+}
+.single-page-book-details .background-button.subscribe-bottom span{
+    color: var(--color06);
+	text-align: center;
+	background: var(--color01);
+    padding: 15px 0px;
+    font-size: 19px;
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    width: 30%;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.single-page-book-details .background-button.subscribe-bottom span:last-child {
+    background: var(--color03);
+    color: var(--color01);
+}
+.single-page-book-details .includes-book-details h3{
+    margin-bottom: 10px;
+}
+.single-page-book-details .includes-book-details{
+    margin-left: 0;
+    margin-top: 15px;
+}
+.single-page-offer-area-main {
+	background: var(--color02);
+}
+.features-box {
+	text-align: center;
+}
+.features-icon {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.features-icon i {
+	font-size: 36px;
+	height: 80px;
+	width: 80px;
+	background: var(--color01);
+	color: var(--color06);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.features-title.includes-book-details h3 {
+	margin-bottom: 10px;
+}
+.features-box p {
+	color: var(--color01);
+}
   /*****************************/
  /******** Default CSS ********/
 /*****************************/
