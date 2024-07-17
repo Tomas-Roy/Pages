@@ -157,7 +157,48 @@
                                             <form action="#">
                                                 <input type="text" value="1">
                                             </form>
-                                            <button class="subscribe-button"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="subscribe-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                <i class="fa-solid fa-cart-shopping"></i>Add to Cart
+                                            </button>
+                                            
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="" id="exampleModalLabel">Your Cart</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="modal-left-box">
+                                                            <div class="modal-left-image">
+                                                                <img src="assets/images/Book-1.png" alt="image">
+                                                            </div>
+                                                            <div class="modal-right-text">
+                                                                <h3>Atomic One’s</h3>
+                                                                <span>$30.00 USD</span>
+                                                                <button>Remove</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="modal-right-box">
+                                                            <span>1</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer subscribe-bottom">
+                                                        <div class="modal-total">
+                                                            <h4>Sub-Total</h4>
+                                                            <h3>$ 60.00 USD</h3>
+                                                        </div>
+                                                        <button class="subscribe-button">
+                                                            Continue to Checkout
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
