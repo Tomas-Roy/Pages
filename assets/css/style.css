@@ -17,6 +17,7 @@ Author URI: https://tomasroy.me
     --color04: #B4C7E7;
     --color05: #969AA0;
     --color06: #FFFFFF;
+    --color07: #DCE1E9;
 }
 body {
     font-family: "Inter","Cardo", serif;
@@ -1262,6 +1263,219 @@ nav.menu-area ul li:last-child {
 	width: 80px;
 	background: var(--color03);
 }
+
+
+  /*****************************/
+ /****** Contact Page CSS *****/
+/*****************************/
+.contact-area-left-main .section-title {
+	text-align: start;
+	margin-bottom: 55px;
+}
+.contact-area-left-main .section-title::after {
+	right: unset;
+	left: 0;
+}
+.contact-area-left-main p {
+	color: var(--color05);
+	margin-bottom: 35px;
+	width: 90%;
+}
+.contact-details-box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 35px;
+}
+.contact-icon {
+	height: 65px;
+	width: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: var(--color01);
+}
+.contact-icon i {
+	height: 35px;
+	width: 35px;
+	font-size: 30px;
+    color: var(--color02);
+}
+.contact-text {
+	margin-left: 20px;
+}
+.contact-text h4 {
+	font-size: 24px;
+	color: var(--color01);
+	font-weight: 700;
+	margin-bottom: 7px;
+}
+.contact-text span{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--color05);
+}
+
+
+
+.contact-first-box{
+    display: flex;
+    align-items: center;
+}
+.contact-box{
+    width: 100%;
+    position: relative;
+}
+.form-controler {
+	display: block;
+	width: 100%;
+    padding: 15px 15px 15px 55px;
+	border: 1px solid var(--color07);
+}
+.contact-box textarea{
+    resize: none;
+    height: 220px;
+    outline: none;
+}
+.contact-box label span {
+	position: absolute;
+	height: 55px;
+	width: 55px;
+	z-index: 1;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact-box label span i{
+    color: var(--color02);
+}
+.contact-box input::placeholder {
+    font-size: 19px;
+    color: var(--color05);
+}
+.contact-box input {
+	outline: none !important;
+}
+.form-check-input:focus {
+	border-color: #86b7fe;
+	outline: 0;
+	box-shadow: none;
+}
+.form-check label {
+	color: var(--color05);
+	margin-left: 10px;
+    font-size: 18px;
+}
+.form-check {
+	padding-left: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.form-check-input {
+	width: 25px;
+	height: 25px;
+    margin-top: 0;
+}
+.form-check .form-check-input {
+	margin-left: 0;
+}
+.form-check-input:checked {
+	border-color: var(--color05);
+}
+.contact-form-main > button {
+	width: 100%;
+	color: var(--color01);
+	text-align: center;
+	background: var(--color02);
+	padding: 15px 0px;
+	font-size: 19px;
+	font-family: "Cardo", serif;
+	font-weight: 700;
+	transition: .3s;
+	outline: none;
+	border: none;
+}
+.contact-form-main > button:hover{
+    background: var(--color01);
+    color: var(--color03);
+}
+
+
+.acrodion-area-main{
+    background: var(--color03);
+}
+.acrodion-area-main .accordion {
+    --bs-accordion-bg: transparent;
+}
+.acrodion-title {
+	margin-bottom: 70px;
+}
+.acrodion-area-main .accordion-button h3 {
+	font-size: 24px;
+	font-family: "Cardo", serif;
+	font-weight: 700;
+	color: var(--color01);
+	margin-left: 35px;
+}
+.acrodion-area-main .accordion-button:not(.collapsed) {
+	color: var(--color01);
+	background-color: transparent;
+	box-shadow: none;
+    padding-bottom: 10px;
+}
+.acrodion-area-main .accordion-button:focus {
+	z-index: 3;
+	border-color: none;
+	outline: none;
+	box-shadow: none;
+}
+.acrodion-area-main .accordion-item:first-of-type .accordion-button {
+	border-top-left-radius: none !important;
+	border-top-right-radius: none !important;
+}
+.acrodion-area-main .accordion-item {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.acrodion-area-main .accordion-item:last-child{
+    border-bottom: none;
+}
+.acrodion-area-main .accordion-button {
+	padding: 19px 0;
+    transition: .5s;
+}
+.acrodion-area-main .accordion-button::after {
+	position: absolute;
+    left: 0px;
+    height: 10px;
+    width: 10px;
+    background: var(--color02);
+    border-radius: 50%;
+    background-image: none;
+    border: 3px solid transparent;
+}
+.acrodion-area-main .accordion-button:not(.collapsed)::after {
+	background-image: none;
+    background: none;
+    border: 3px solid var(--color02);
+}
+.acrodion-area-main .accordion-body {
+	padding: 0 0px 20px 34px;
+}
+.acrodion-area-main .accordion-body p{
+    color: var(--color05);
+    margin-bottom: 10px;
+}
+.acrodion-area-main .accordion-body span{
+    color: var(--color05);
+    font-size: 19px;
+}
+
+
+
 
   /*****************************/
  /******** Default CSS ********/
