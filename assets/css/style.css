@@ -853,7 +853,9 @@ nav.menu-area ul li:last-child {
 .background-main-text .section-title {
 	color: var(--color06);
 	font-size: 50px;
+    margin: auto;
 	margin-bottom: 50px;
+	width: 55%;
 }
 .background-main-text p{
 	color: var(--color04);
@@ -1475,7 +1477,109 @@ nav.menu-area ul li:last-child {
 }
 
 
+  /*****************************/
+ /****** Blog Single CSS ******/
+/*****************************/
+.blog-image img {
+	height: 725px;
+	width: 100%;
+	object-fit: cover;
+	object-position: 50% 30%;
+}
+.blog-text-up {
+	margin-bottom: 50px;
+}
+.blog-text-up h3 {
+	color: var(--color01);
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px 0;
+}
+.blog-text-up p, .blog-text-mid p{
+	color: var(--color05);
+}
+.blog-text-mid {
+	margin-bottom: 50px;
+}
+.blog-text-mid >p{
+	margin-bottom: 20px;
+}
+.blog-text-mid h3 {
+	color: var(--color01);
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.blog-text-mid .counter-elements p{
+    color: var(--color01);
+}
+.blog-text-mid .bg-counter {
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+.blog-text-box{
+    background: var(--color01);
+	position: relative;
+	padding: 60px 0;
+	margin-bottom: 50px;
+}
+.blog-text-bottom {
+	margin-bottom: 30px;
+}
+.blog-box-vactor {
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+.blog-box-vactor img {
+	width: 80%;
+}
+.blog-text-box p{
+    font-size: 18px;
+    font-weight: 500;
+	text-align: center;
+}
+.bg-counter ul li {
+	list-style: decimal;
+	color: var(--color01);
+	font-size: 19px;
+	font-weight: 400;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
 
+  /*****************************/
+ /******* ERROR Page CSS ******/
+/*****************************/
+.error-area-main{
+	background: url('/assets/images/error/bg.png') no-repeat scroll 100% 100% / 100% 100%;
+	/* background: url(/assets/images/error/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; */
+}
+.error-main-box {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+.error-vactor {
+	margin-bottom: 65px;
+}
+.error-vactor img{
+	height: 100%;
+	width: 100%;
+}
+.error-main-box h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: var(--color01);
+	margin-bottom: 20px;
+}
+.error-main-box p{
+	color: var(--color05);
+	margin-bottom: 30px;
+}
 
   /*****************************/
  /******** Default CSS ********/
