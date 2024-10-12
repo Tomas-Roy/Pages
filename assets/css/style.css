@@ -1587,7 +1587,7 @@ nav.menu-area ul li:last-child {
 }
 
   /*****************************/
- /******** Default CSS ********/
+ /******** Password CSS *******/
 /*****************************/
 .protected-box-main {
 	background: var(--color08);
@@ -1637,6 +1637,29 @@ nav.menu-area ul li:last-child {
 	background: var(--color01);
 	color: var(--color02);
 }
+
+  /*****************************/
+ /******* Licenses CSS ********/
+/*****************************/
+.licenses-box h4, .licenses-box h5{
+	color: var(--color01);
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.licenses-box h5{
+	font-size: 20px;
+}
+.licenses-box-main p{
+	color: var(--color05);
+	width: 95%;
+}
+.licenses-box-main p span{
+	color: var(--color01);
+	font-weight: 600;
+}
+
+
 
   /*****************************/
  /******** Default CSS ********/
