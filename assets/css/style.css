@@ -1660,6 +1660,35 @@ nav.menu-area ul li:last-child {
 }
 
 
+  /*****************************/
+ /******* Changelog CSS *******/
+/*****************************/
+.changelog-box-main{
+	background: var(--color08);
+	padding: 50px;
+	text-align: center;
+}
+.changelog-box-main span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 25px;
+}
+.changelog-box-main span h3 {
+	background: var(--color02);
+	color: var(--color01);
+	height: 90px;
+	width: 90px;
+	font-size: 30px;
+	font-weight: 700;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.changelog-box-main p{
+	color: var(--color05);
+}
 
   /*****************************/
  /******** Default CSS ********/
