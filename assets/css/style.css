@@ -988,7 +988,7 @@ nav.menu-area ul li:last-child {
 .store-page .includes-book-image {
 	background: var(--color03);
 }
-.store-page .includes-book-image img {
+.store-page .includes-book-image >img {
 	height: 100%;
 	width: 100%;
 	padding: 40px 45px;
@@ -999,12 +999,15 @@ nav.menu-area ul li:last-child {
 }
 .store-page .includes-book-image .book-extra-icon img {
 	height: 100%;
-	width: 80%;
+	width: 50%;
 }
 .store-page .includes-book-image .book-extra-icon {
 	position: absolute;
-	bottom: -25px;
-	right: -70px;
+	bottom: 7px;
+	right: 10px;
+	display: flex;
+	justify-content: end;
+	align-items: end;
 }
 .store-page .includes-book-details {
 	margin-left: 0px;
@@ -1702,6 +1705,10 @@ nav.menu-area ul li:last-child {
 @media all and (max-width: 1399.98px) {
 
  /******** Home Page CSS ********/
+ 
+    .menu-area ul li a.header-button {
+		padding: 13px 20px;
+    }
 	.learn-box {
 		padding: 25px;
 		margin: 10px;
