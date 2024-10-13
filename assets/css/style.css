@@ -1690,12 +1690,32 @@ nav.menu-area ul li:last-child {
 	color: var(--color05);
 }
 
-  /*****************************/
- /******** Default CSS ********/
-/*****************************/
+
+
+
+
+
+
+  /***********************************/
+ /******** Responsive CSS ***********/
+/***********************************/
 @media all and (max-width: 1399.98px) {
 
-	  
+ /******** Home Page CSS ********/
+	.learn-box {
+		padding: 25px;
+		margin: 10px;
+	}
+	.chapter-details-box {
+		padding: 40px;
+	}
+	.chepter-area-main .bg-counter {
+		margin-right: 36px;
+	}
+	.background-counter-area .bg-counter:last-child{
+		margin: 0;
+	}
+	
 }
   
 @media all and (max-width: 1200px){
