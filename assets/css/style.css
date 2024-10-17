@@ -1730,7 +1730,77 @@ nav.menu-area ul li:last-child {
 }
 	/* Medium Device = 1200px */
 @media all and (max-width: 1199.98px) {
-
+	.nav-991{
+		display: none;
+	}
+	.menu-main {
+		flex: 0 0 auto;
+		width: 83.33333333%;
+	}
+	.nav-box {
+		justify-content: space-between;
+	}
+	.includes-book-details {
+		margin-left: 0;
+	}
+	.includes-book-details .header-button {
+		padding: 13px 40px;
+	}
+	.includes-book-details .background-button {
+		margin-bottom: 0px;
+	}
+	.includes-book-details .background-button a:first-child {
+		margin-right: 0px;
+	}
+	.gutter-992{
+		padding-right: calc(var(--bs-gutter-x) * .0);
+		padding-left: calc(var(--bs-gutter-x) * .0);
+	}
+	.author-counter-box {
+		padding-right: 7px;
+	}
+	.author-bio {
+		width: 100%;
+	}
+	.author-details {
+		margin-left: 18px;
+	}
+	.learn-box {
+		padding: 20px;
+		margin: 10px;
+	}
+	.chapter-details-box {
+		padding: 20px;
+	}
+	.chepter-area-main .bg-counter {
+		margin-right: 15px;
+	}
+	.chepter-area-main .counter-elements h4 {
+		margin-right: 7px;
+	}
+	.chepter-area-main .counter-text-bar {
+		margin-right: 5px;
+	}
+	.chepter-area-main .g-lg-5, .article-area-main .g-5 {
+		--bs-gutter-x: 2rem;
+		--bs-gutter-y: 3rem;
+	}
+	.about-book-left-area .section-title {
+		width: 100%;
+	}
+	.article-content {
+		padding: 15px;
+	}
+	.footer-address-box a {
+		flex-wrap: wrap;
+	}
+	.footer-address-box a p {
+		width: 35%;
+	}
+	.footer-address-box a span {
+		width: 65%;
+		display: inline-table;
+	}
 }
   
   
